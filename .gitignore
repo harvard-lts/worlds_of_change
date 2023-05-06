@@ -1,0 +1,10 @@
+*~
+.env
+*.swp
+
+# pyenv
+.python-version
+__pycache__
+
+# Oracle driver
+instantclient_19_8

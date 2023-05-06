@@ -1,0 +1,9 @@
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src"
+]
+
+[tool.project-paths]
+dir_unit_out = "tests/unit/out/"
+dir_unit_resources = "tests/unit/resources/"
+dir_int_out = "tests/integration/out/"
