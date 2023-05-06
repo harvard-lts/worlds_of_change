@@ -4,7 +4,13 @@ from woc.iiif_manifest import IIIF_Manifest
 import os
 import requests
 
+"""
+This class is the central collection of functionality to retrieve and stage
+transcripts from the FromThePage service.
 
+Since: 2023-05-05
+Author: awoods
+"""
 class Worker():
 
 
