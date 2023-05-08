@@ -53,6 +53,7 @@ class TestWorkerClass():
 
   def test_write_to_disk(self, mocker):
     base_dir = paths.dir_unit_out
+    os.makedirs(base_dir, exist_ok=True)
 
     filename_orig = "test.jp2"
     filename_expected = "test.txt"
