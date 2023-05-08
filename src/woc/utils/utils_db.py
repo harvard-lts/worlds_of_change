@@ -68,8 +68,7 @@ class DrsDB:
 
   def _get_db_connection(self, lib_dir, env_details):
     if lib_dir == None:
-      base_dir="/Users/anw822/programming/drs/scripts/drs_cross_environment/lib"
-      lib_dir="{}/instantclient_19_8/".format(base_dir)
+      lib_dir="instantclient_19_8/"
 
     try:
       cx_Oracle.init_oracle_client(lib_dir)
